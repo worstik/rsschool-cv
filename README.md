@@ -1,1 +1,1 @@
-# rsschool-cv
+https://worstik.github.io/rsschool-cv/cv
