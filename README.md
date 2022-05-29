@@ -1,1 +1,1 @@
-https://worstik.github.io/rsschool-cv/cv.md
+https://worstik.github.io/rsschool-cv/cv
