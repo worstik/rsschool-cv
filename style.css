@@ -1,1 +1,126 @@
-Some text
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: gray;
+}
+
+.main {
+}
+
+
+.footer {
+    background-color:gray;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 25px;
+    line-height: 50px;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 18px;
+    transition: .3s;
+}
+
+  
+.nav-item a:hover {
+    color:aqua;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding-right: 150px;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  body {
+      font-family: "Roboto Condensed", san-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+      color:rgb(0, 0, 0)
+  }
+
+  .section-title {
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+      color:sienna
+  }
+
+  .avatar {
+      width: 50%;
+      float: left;
+      margin: 0 0 0 3.5%;
+      border-radius: 100px;
+      padding: 2%;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-link {
+    padding: 0 25px;
+    line-height: 50px;
+    text-decoration: none;
+    color:aquamarine;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.github-link {
+    width: 80px;
+    float: left;
+}
+
+.year {
+    text-align: center;
+}
+
+.rs-school-link {
+    width: 100px;
+    float: right;
+}
+
