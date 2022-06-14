@@ -7,6 +7,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+body {
+    background-color: gainsboro;
+}
+
+ul {
+    list-style: none;
+}
 
 * {
     box-sizing: border-box;
@@ -17,13 +24,83 @@ body {
 }
 
 .main {
-
+    margin: 18px;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 18px;
 }
 
+.contacts {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+
+.left {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.education {
+    line-height: 2;
+    letter-spacing: 0.3px;
+}
+
+.right {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.profile {
+    margin-bottom: 164px;
+    margin-left: 350px;
+}
+
+.profile-hr {
+    border: none;
+    background-color:gold;
+    color: gold;
+    height: 5px;
+    margin-left: -350px;
+    border-radius: 15px;
+}
+
+.about_me, section, experience {
+    margin: 50px 0px;
+}
+
+.date {
+    color: rgb(0, 97, 0);
+}
+
+.pofile-title {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:cadetblue
+}
+
+.about_me {
+    line-height: 2;
+    letter-spacing: 0.5px;
+}
+
+.experience {
+    line-height: 2;
+}
+
+.current {
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
 
 .footer {
     background-color:gray;
 }
+
 
 .container {
     max-width: 1440px;
@@ -55,14 +132,9 @@ html {
     scroll-behavior: smooth;
 }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .section {
     width: 50%;
-    padding-right: 150px;
 }
 
 @media (max-width: 768px) {
@@ -73,26 +145,22 @@ html {
 
   body {
       font-family: "Roboto Condensed", san-serif;
-      font-size: 16px;
-      font-weight: 400;
+      font-size: 18px;
+      font-weight: 500;
       line-height: 1.5;
       color:rgb(0, 0, 0)
   }
 
   .section-title {
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 400;
       text-transform: uppercase;
-      letter-spacing: 8px;
+      letter-spacing: 2px;
       color:sienna
   }
 
-  .avatar {
-      width: 50%;
-      float: left;
-      margin: 0 0 0 3.5%;
-      border-radius: 100px;
-      padding: 2%;
+  .left-image img {
+      width: 100%;
   }
 
   .footer-list {
@@ -118,6 +186,7 @@ html {
 
 .year {
     text-align: center;
+    line-height: 18px;
 }
 
 .rs-school-link {
