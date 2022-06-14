@@ -1,0 +1,196 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body {
+    background-color: gainsboro;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: gray;
+}
+
+.main {
+    margin: 18px;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 18px;
+}
+
+.contacts {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+
+.left {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.education {
+    line-height: 2;
+    letter-spacing: 0.3px;
+}
+
+.right {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.profile {
+    margin-bottom: 164px;
+    margin-left: 350px;
+}
+
+.profile-hr {
+    border: none;
+    background-color:gold;
+    color: gold;
+    height: 5px;
+    margin-left: -350px;
+    border-radius: 15px;
+}
+
+.about_me, section, experience {
+    margin: 50px 0px;
+}
+
+.date {
+    color: rgb(0, 97, 0);
+}
+
+.pofile-title {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:cadetblue
+}
+
+.about_me {
+    line-height: 2;
+    letter-spacing: 0.5px;
+}
+
+.experience {
+    line-height: 2;
+}
+
+.current {
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color:gray;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 25px;
+    line-height: 50px;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 18px;
+    transition: .3s;
+}
+
+  
+.nav-item a:hover {
+    color:aqua;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  body {
+      font-family: "Roboto Condensed", san-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.5;
+      color:rgb(0, 0, 0)
+  }
+
+  .section-title {
+      font-size: 25px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color:sienna
+  }
+
+  .left-image img {
+      width: 100%;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-link {
+    padding: 0 25px;
+    line-height: 50px;
+    text-decoration: none;
+    color:aquamarine;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.github-link {
+    width: 80px;
+    float: left;
+}
+
+.year {
+    text-align: center;
+    line-height: 18px;
+}
+
+.rs-school-link {
+    width: 100px;
+    float: right;
+}
+
